@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EstiloMenu" parent="Theme.AppCompat.Light">
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+    </style>
+
+    <style name="PopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/boton_fondo</item> <!-- Define un fondo para el menú -->
+    </style>
+
+    <style name="DropDownListView" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/seleccion_menu</item> <!-- Define el estilo de selección -->
+    </style>
+</resources>
